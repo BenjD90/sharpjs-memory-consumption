@@ -1,0 +1,25 @@
+{
+  "name": "sharpjs-memory-consumption",
+  "description": "media resize memory usage test",
+  "private": false,
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist/ && mkdir dist && cp package.json dist/ && cp -r node_modules/ dist/ && cp -r src/index.js dist/ && cp img-test.jpg dist/",
+    "start": "node dist/"
+  },
+  "keywords": [
+    "routing-controller",
+    "express",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "sharp": "^0.25.4"
+  },
+  "devDependencies": {
+    "@types/sharp": "^0.25.0"
+  }
+}

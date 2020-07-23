@@ -1,0 +1,11 @@
+version: "2.4"
+services:
+  media-resize-mem:
+    build:
+      context: ./
+    image: media-resize-mem
+    ports:
+      - 8080:8080
+    mem_limit: 200MB
+    volumes:
+      - ./src/index.js:/home/app/dist/index.js
