@@ -45,3 +45,5 @@ Example of output logs :
 2020-07-23T11:56:33.087Z End resize image ! Max RSS Used : 488.16 Mo
 2020-07-23T11:56:33.087Z RSS : 59.29 Mo, HeapTotal : 8.73, arrayBuffers : 3.26, external : 4.37
 ```
+
+This project is related to the question : https://github.com/libvips/libvips/issues/1740
